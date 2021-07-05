@@ -33,3 +33,6 @@ override.tf.json
 # Excluding the private and public keys
 mykey
 mykey.pub
+
+#Ignoring the private key file
+private_ips.txt
