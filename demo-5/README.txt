@@ -8,3 +8,4 @@ This demo contains two folders
     b. A data source to get the public IP of the instance with tags "type=demo-5"
     b. Should create a security group which allows inbound rule from the above IPs at port 22
 3. SSH into the first instance and try to SSH into second instance using the demo-5 key.
+4. To run this completely first execute `terraform apply` in demo-5-1 and then in demo-5-2.
